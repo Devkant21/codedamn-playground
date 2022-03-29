@@ -97,21 +97,20 @@ const Blog = () => {
       </div>
     </div>
   </div>
-          <div className='col-span-2 space-x-8 px-4 py-2'>
+          <div className='px-20'>
             <Image width={700} height={400} src='/pp.png' alt="" />
-            <p>
-              The playground also has 100 days of project challenges to propel the user to take part in the competitive activities. <br></br>
-              It also has an activity monitor to check the progress of the ongoing projects or courses undertaken. <br>
-              </br>
-              The user could also populate the goal section and set up a weekly target to accomplish the goal.
-            </p>
+            <div className='mt-4'>
+              <p>
+                The playground also has 100 days of project challenges to propel the user to take part in the competitive activities. <br></br>
+                It also has an activity monitor to check the progress of the ongoing projects or courses undertaken. <br>
+                </br>
+                The user could also populate the goal section and set up a weekly target to accomplish the goal.
+              </p>
 
-            <Image width={700} height={400} src='/playground.png' alt="" />
-
-
-          </div> 
+              {/* <Image width={700} height={400} src='/playground.png' alt="" /> */}
+            </div>
+          </div>   
     </section>
-    
   )
 }
 
