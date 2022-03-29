@@ -107,7 +107,14 @@ const Blog = () => {
                 The user could also populate the goal section and set up a weekly target to accomplish the goal.
               </p>
 
-              {/* <Image width={700} height={400} src='/playground.png' alt="" /> */}
+              <div className='py-4 px-20'>
+                <Image width={700} height={400} src='/ht.png' alt="" />
+                  <div className='mt-4'>
+                    <p>
+                    Here we could see the HTML/CSS/JS playground. The left side of the above image represents the folder structure. The middle part of the image represents the coding window. The right side of the image represents the live server where the output of the code is displayed.<br></br>
+                    </p>
+                  </div>
+              </div>
             </div>
           </div>   
     </section>
