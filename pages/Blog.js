@@ -7,7 +7,11 @@ const Blog = () => {
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Codedamn Playground</h1>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Codeamn's Playground provides the budding programmer an opportunity to learn about variety of technology stack. It provides the user a real developement playground to write software codes.</p>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Codedamn's Playground provides the budding programmer an opportunity to learn about variety of technology stack. It provides the user a real developement playground to write software codes. <br></br>
+      The altruistic move of Codedamn has made the playground freely accessible to everyone. The basic courses are being provided free of cost, allowing anyone having the intention to code and build prototypes. <br></br>
+      
+      </p>
+      
     </div>
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -98,8 +102,15 @@ const Blog = () => {
             
             
     
-            <div className='col-span-2 space-x-8 py-2'>
-            <Image width={700} height={400} src='/playground.png' alt="" />
+            <div className='col-span-2 space-x-8 px-4 py-2'>
+            <Image width={700} height={400} src='/pp.png' alt="" />
+            <p>
+              The playground also has 100 days of project challenges to propel the user to take part in the competitive activities. <br></br>
+              It also has an activity monitor to check the progress of the ongoing projects or courses undertaken. <br>
+              </br>
+              The user could also populate the goal section and set up a weekly target to accomplish the goal.
+            </p>
+
             <Image width={700} height={400} src='/playground.png' alt="" />
 
 
