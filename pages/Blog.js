@@ -6,8 +6,8 @@ const Blog = () => {
                 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Codedamn Playground</h1>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Codedamn's Playground provides the budding programmer an opportunity to learn about variety of technology stack. It provides the user a real developement playground to write software codes. <br></br>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Codedamn&apos;s Playground</h1>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Codedamn&apos;s Playground provides the budding programmer an opportunity to learn about variety of technology stack. It provides the user a real developement playground to write software codes. <br></br>
       The altruistic move of Codedamn has made the playground freely accessible to everyone. The basic courses are being provided free of cost, allowing anyone having the intention to code and build prototypes. <br></br>
       
       </p>
